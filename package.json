@@ -1,0 +1,56 @@
+{
+  "name": "react-context-boilerplate",
+  "version": "1.0.0",
+  "description": "A minimal React Context API boilerplate with all the best practices",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nervatura/react-context-boilerplate.git"
+  },
+  "license": "MIT",
+  "author": "Csaba Kappel",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^8.1.0",
+    "fontfaceobserver": "^2.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-meta-tags": "^0.7.4",
+    "react-scripts": "3.4.0",
+    "sanitize.css": "^11.0.0",
+    "whatwg-fetch": "^3.0.0",
+    "wouter": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/{!(serviceWorker),}.js"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "react-test-renderer": "^16.12.0",
+    "remotedev-react-state": "^0.1.0"
+  }
+}

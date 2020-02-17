@@ -1,0 +1,12 @@
+import React from 'react';
+import {render} from '@testing-library/react'
+
+import LoadingIndicator from './index';
+
+describe('<LoadingIndicator />', () => {
+  it('should render 13 divs', () => {
+
+    const { container } = render(<LoadingIndicator />);
+    expect(container).toBeDefined()
+  });
+});
