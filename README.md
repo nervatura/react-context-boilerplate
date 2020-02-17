@@ -25,6 +25,14 @@ So I also forked it, and I made a **more beginner friendly** and simpler version
 - simplicity, minimal **routing** library: [Wouter](https://github.com/molefrog/wouter)
 - and [SCSS Styling](https://github.com/sass/node-sass), [webfont loading](https://github.com/bramstein/fontfaceobserver), [sanitize.css](https://csstools.github.io/sanitize.css/)
 
+## Quick start
+
+1. Clone this repo using `git clone https://github.com/nervatura/react-context-boilerplate.git`
+2. Move to the appropriate directory: `cd react-context-boilerplate`.<br />
+3. Run `npm install` to install dependencies.<br />
+4. Run `npm start` to see the example app at `http://localhost:3000`.
+
+Now you're ready build your beautiful React Application!
 
 ## Learn More
 
