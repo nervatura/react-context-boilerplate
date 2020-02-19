@@ -7,7 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="header">
-        <ReactLogo className="App-logo" />
+        <ReactLogo color="#61DAFB" className="App-logo" />
         <div className="nav-bar">
           <Link className="router-link" to="/">
             Home
